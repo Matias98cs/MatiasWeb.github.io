@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #702121eb;
+}
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span {
+    color: white;
+
+}
+
+/* --------------------------------------------------------------HEADER */
+
+
+
+/* ----------------------------------------------------------------MAIN */
+
+.main-section {
+    display: grid;
+    grid-auto-columns: 1fr;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash-2.png');
+    width: 100%;
+    height: 700px;
+}
+
+
+.main-name {
+    display: grid;
+    grid-template-columns:  1fr;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-name-description {
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    display: flex;
+    font-size: 70px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-name-category {
+    display: flex;
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* -------------------------------------------------------------ABOUTME */
+
+.abouteme {
+    display: grid;
+    grid-auto-rows: 150px 1fr;
+    background-color: #cdd2da;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.abouteme-tittle {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+.abouteme-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.aboutme-image {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+
+}
+
+.aboutme-image img {
+    width: 320px;
+}
+
+.abouteme-description {
+    padding-left: 10px;
+    padding-right: 35px;
+    margin: auto;
+}
+
+
+.abouteme-tittle-name {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.abouteme-description-life {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------------------------------------------------PROJECTS */
+
+.projects-container {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.projects-tittle{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.projects-container-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px;
+    margin: auto;
+}
+
+.projects-description {
+    font-family: 'Raleway', sans-serif;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline-block
+}
+
+.projects-description-tittle {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.projects-img img{
+    width: 290px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.projects-button {
+    border: 1px solid #702121eb;
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 28px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #702121eb;
+    color: white;
+    box-shadow: 2px 2px 10px #666;
+}
+
+
+/* ----------------------------------------------------------- PROGRAMS */
+
+.programs-main {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.programs-main-tittle {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+.programs-main-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.programs-main-section-tittle {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.programs-porcentajes-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.programs-main-bar-section {
+    position: relative;
+    width: 250px;
+    border: 1px solid rgb(73, 16, 16);
+    padding: 2px;
+    border-radius: 100px;
+    height: 20px;
+
+}
+
+.programs-bar-strong {
+    display: block;
+    position: relative;
+    background: rgb(73, 16, 16);
+    text-align: center;
+    color: #333;
+    height: 20px;
+    border-radius: 100px;
+    color: white;
+}
+
+.programs-main-level{
+    padding-left: 10px;
+}
+
+/* -----------------------------------------------------------REFLEXION */
+
+.reflexion-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.reflexion-section-container {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* --------------------------------------------------------------FOOTER */
+footer {
+    width: 100%;
+    height: 220px;
+    background-color: #702121eb;
+    border-top: 30px solid  #330606f8;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: space-around;
+    padding-top: 10px;
+}
+
+.footer-email {
+    display: grid;
+    grid-template-rows: 50px 100px;
+    justify-content: center;
+}
+
+.footer-email-img {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-email-contact {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.footer-phone {
+    display: grid;
+    grid-template-rows: 50px 100px;
+    justify-content: center;
+}
+
+.footer-phone-img {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-phone-contact {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+footer .icons {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+footer .icons span {
+    color: white;
+
+}
