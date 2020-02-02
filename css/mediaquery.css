@@ -37,6 +37,9 @@
         grid-template-rows: 1fr;
 
     }
+    .abouteme-img img {
+        width: 120px;
+    }
 
     .abouteme-description {
         text-align: center;
