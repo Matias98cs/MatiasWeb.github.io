@@ -38,8 +38,8 @@
 
     }
     .abouteme-img img {
-        width: 120px;
-        height: 60px;
+        max-width: 60px;
+        max-height: 55px;
     }
 
     .abouteme-description {
