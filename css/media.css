@@ -113,6 +113,8 @@ header .icons span {
 
 .aboutme-image img {
     width: 320px;
+    border-radius: 100%;
+
 }
 
 .abouteme-description {

@@ -39,8 +39,7 @@
     }
     .abouteme-img img {
         width: 120px;
-        height: 200px
-
+        height: 60px;
     }
 
     .abouteme-description {
@@ -82,6 +81,7 @@
         display: grid;
         justify-content: center;
         align-content: center;
+        padding-left: 70px;
 
     }
 
